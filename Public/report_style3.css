@@ -1,0 +1,155 @@
+/* General body background and font styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #edf2f7, #dbeafe);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page header */
+h1 {
+    text-align: center;
+    color: #1e293b;
+    padding: 30px 0 10px;
+    font-size: 28px;
+}
+
+/* Form container */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: #ffffff;
+    padding: 25px 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    max-width: 600px;
+}
+
+/* Input field */
+input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    width: 220px;
+}
+
+/* Filter button */
+button.report-button {
+    padding: 10px 20px;
+    background-color: #6366f1;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* optional spacing */
+}
+
+button.report-button:hover {
+    background-color: #4338ca;
+}
+
+/* Message for no valid campaigns */
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #4b5563;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Success icon for message */
+.no-data::before {
+    content: "✅";
+    font-size: 20px;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background-color: #4f46e5;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tr:hover {
+    background-color: #e2e8f0;
+}
+/* Full page centering */
+.center-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.title-section {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.input-section input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

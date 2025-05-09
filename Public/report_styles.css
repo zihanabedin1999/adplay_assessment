@@ -1,0 +1,75 @@
+/* Full page background */
+body {
+    background-color: #f9f9f9; /* light pure background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    background-color: #ffefef;
+    color: #a00;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Form section */
+form {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+button.report-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.report-button:hover {
+    background-color: #c9302c;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+/* Message */
+p {
+    font-size: 16px;
+}
